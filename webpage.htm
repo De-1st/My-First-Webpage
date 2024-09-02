@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Webpage</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body class="body-main">
+    <div class="container-main">
+      <h1 class="h1tag">My First Webpage</h1>
+    </div>
+    <div class="navigation">
+        
+      <!-- Navigation Menu starts here -->
+      <div class="navigation-style">
+        <h4>
+          <a href="#webpage-contents" class="navigation-style-one"
+            >Webpage Contents</a
+          >
+        </h4>
+      </div>
+      <div class="navigation-style">
+        <h4>
+          <a href="#information-table" class="navigation-style-two"
+            >Information Table</a
+          >
+        </h4>
+      </div>
+      <div class="navigation-style">
+        <h4>
+          <a href="#contact-form" class="navigation-style-three"
+            >Contact Form</a
+          >
+        </h4>
+      </div>
+      <!-- Navigation Menu ends here -->
+
+      <div class="div-text">
+        <div>
+          <img src="img/sunset.jpeg" class="img" alt="Sun set" />
+        </div>
+        <div class="text">
+          <p class="text-height">
+            This is a sample paragraph describing the content of the webpage. It
+            explains the purpose of the page and provides some basic information
+            about what users can expect to find.
+          </p>
+        </div>
+        <p class="techyjaunt-link">
+          <a href="https://www.techyjaunt.com" target="_blank"
+            >Visit TechJaunt</a
+          >
+        </p>
+      </div>
+      <div class="contents" id="webpage-contents">
+        <h2 class="contents-heading-spacing">Webpage Contents</h2>
+        <ul class="contents-list-spacing">
+          <li>Introduction</li>
+          <li>Table of Information</li>
+          <li>Contact Form</li>
+        </ul>
+      </div>
+      <div id="information-table" class="information-table">
+        <h2>Information Table</h2>
+        <table>
+          <!-- Heading starts here -->
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Description</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <!-- Heading ends here -->
+
+          <!-- Body starts here -->
+          <tbody>
+            <tr>
+              <td>Pens</td>
+              <td>Blue Ink Pens</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>Notebooks</td>
+              <td>Spiral-bound Notebooks</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>Markers</td>
+              <td>Permanent Markers</td>
+              <td>2</td>
+            </tr>
+          </tbody>
+          <!-- Body ends here -->
+        </table>
+      </div>
+      <div id="contact-form" class="contact-form">
+        <h2 class="contact-form-heading">Contact Form</h2>
+        <form>
+          <p><label>Name:</label> <input type="text" /></p>
+
+          <p class="form-spacing">
+            <label>Email:</label> <input type="email" />
+          </p>
+
+          <p class="form-spacing">
+            <label>Password:</label> <input type="password" />
+          </p>
+
+          <p class="form-spacing">
+            <label>Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" />
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" />
+          </p>
+          <p class="form-spacing">
+            <label for="subscribe">Subscribe:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" />
+            <label for="subscribe">Yes, I want to subscribe</label>
+          </p>
+          <p class="form-spacing">
+            <label for="number">Number of items:</label>
+            <input type="number" />
+          </p>
+          <p class="form-spacing">
+            <label>Date:</label>
+            <input type="date" />
+          </p>
+
+          <p class="message" class="form-spacing">
+            <label for="message">Message:</label>
+          </p>
+
+          <textarea id="message" name="message" rows="6" cols="50"></textarea>
+          <p class="submit-button">
+            <button type="submit" value="Submit">Submit</button>
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

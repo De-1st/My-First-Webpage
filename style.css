@@ -1,0 +1,83 @@
+
+.container-main {
+  background-color: rgb(12, 173, 12);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.h1tag {
+  margin: 0px;
+  color: white;
+  text-align: center;
+}
+.body-main {
+  margin: 0px;
+}
+.navigation {
+  padding-left: 18px;
+}
+.navigation-style,
+.navigation-style,
+.navigation-style {
+  display: inline-block;
+}
+.navigation-style-one,
+.navigation-style-two,
+.navigation-style-three {
+  color: rgb(55, 207, 55);
+  text-decoration: none;
+  padding-right: 35px;
+}
+.img {
+  height: 400px;
+  width: 700px;
+}
+.div-text {
+  
+}
+.text {
+  text-align: center;
+  width: 700px;
+}
+.techyjaunt-link {
+  padding-top: 15px;
+  padding-left: 7px;
+}
+.text-height{
+  line-height: 23px;
+  margin-top: 15px;
+}
+.contents{
+  margin-top: 80px;
+}
+.contents-heading-spacing{
+  padding-bottom: 7px;
+}
+.contents-list-spacing{
+  line-height: 25px;
+}
+.information-table, .contact-form{
+  margin-top: 100px;
+}
+.contact-form-heading{
+  margin-bottom: 30px;
+}
+table{
+  text-align: center;
+  border-spacing: 0px;
+  border: 1px solid;
+}
+th, td{
+  border: 1px solid;
+  padding: 10px;
+}
+.form-spacing{
+  margin-top: 30px;
+}
+.message{
+  margin-top: 30px;
+  margin-bottom: 2px;
+}
+.submit-button{
+  margin-top:30px;
+  margin-bottom: 40px;
+}
